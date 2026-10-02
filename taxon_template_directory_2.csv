@@ -1,0 +1,5 @@
+Taxa,Gene,filepath
+Frogs1,mt,derep_msa_frog1b_v3.fasta
+Frogs2,mt,derep_msa_frog2b_v3.fasta
+Toads,mt,derep_msa_toad_v3.fasta
+Salamanders,mt,derep_msa_sals_v3.fasta
