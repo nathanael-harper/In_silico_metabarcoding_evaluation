@@ -80,14 +80,14 @@ Run the steps in order. Each step creates a `results/` folder with intermediate 
 #### **Supplemental Figure 1 (`supplemental_figure_1.r`)**
 *   **Function:** Plots the PrimerMiner score for every assay-template combination, assuming each template is a unique taxa. It parses sequence IDs to extract haplotype counts, ensuring that common haplotypes weigh more heavily in the average score.
 
-#### **Supplemental Figure 4 (`Supplemental_figure_4.r`)**
+#### **Supplemental Figure 2 (`Supplemental_figure_2.r`)**
 *   **Function:** Determines the "Fate" of every species for every assay-template combination (e.g., Unique Barcode, Shared Barcode), assuming each template is a unique taxa. It uses a priority hierarchy (Suitable > Unsuitable > Incomplete) to classify species, then plots the proportion of species falling into each category.
 
 #### **Supplemental Figure 3 (`supplemental_figure_3.r`)**
 *   **Function:** Calculates a **weighted average PrimerMiner score** for every assay-species combination, assuming multiple templates may map to a single species. It parses sequence IDs to extract haplotype counts, ensuring that common haplotypes weigh more heavily in the average score.
 
 #### **Supplemental Figure 4 (`Supplemental_figure_4.r`)**
-*   **Function:** Determines the "Fate" of every species for every assay-species combination (e.g., Unique Barcode, Shared Barcode). It uses a priority hierarchy (Suitable > Unsuitable > Incomplete) to classify species, then plots the proportion of species falling into each category.
+*   **Function:** Determines the "Fate" of every species for every assay-species combination (e.g., Unique Barcode, Shared Barcode), assuming multiple templates may map to a single species. It uses a priority hierarchy (Suitable > Unsuitable > Incomplete) to classify species, then plots the proportion of species falling into each category.
 
 ## 6. Key Outputs
 All outputs are saved to `results/`.
